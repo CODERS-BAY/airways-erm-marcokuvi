@@ -9,3 +9,36 @@ Before starting the flight, the passenger will be given a boarding card at the a
 (row as number, seat as letter, e.g. 18D) and a smoking or non-smoking license plate appears. The non-smoking seats are assigned on each flight starting from the front of the aircraft, the smoking seats starting from the rear. Seating arrangements depend on the type of aircraft on which the flight is performed. For each seat the class (First Class 1 Economy) and location (window, aisle, middle) are
 to hold on to.
 For each flight, it must also be possible to record the actual take-off and landing time in order to be able to make evaluations of the punctuality of individual flights.
+
+
+![ERM](Erm.jpg)
+
+
+Text notations 
+
+Passagier (passenger number: INT, name: VARCHAR, gender: CHAR, title: VARCHAR)
+
+Airports (name: VARCHAR, headquarters: VARCHAR, ID: INT)
+
+Ticket Booking (booking ID: INT)
+
+Ticket (Ticket Nr. : INT, )
+
+Airlines ()
+
+Distance ()
+
+Airplanes ()
+
+Flights ()
+
+Classes ()
+
+Seats ()
+
+Ticket Price ()
+
+Time ()
+
+Boardcard ()
+
