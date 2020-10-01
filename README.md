@@ -16,29 +16,27 @@ For each flight, it must also be possible to record the actual take-off and land
 
 Text notations 
 
-Passagier (passenger number: INT, name: VARCHAR, gender: CHAR, title: VARCHAR)
+Passagier (passenger_number: INT, name: VARCHAR, gender: CHAR, title: VARCHAR)
 
-Airports (name: VARCHAR, headquarters: VARCHAR, ID: INT)
+Airports (code_airports : VARCHAR, name_airlines : VARCHAR, city : VARCHAR, country : VARCHAR, capacity_in_aircraft : INT)
 
-Ticket Booking (booking ID: INT)
+Ticket Booking (booking_id: INT)
 
-Ticket (Ticket Nr. : INT, )
+Ticket (ticket_nr. : INT, date_of_issue : DATE, price FLOAT, currency : VARCHAR, sales_office : VARCHAR)
 
-Airlines ()
+Airlines (code_airlines : VARCHAR, name_airlines : VARCHAR, headquarters : VARCHAR)
 
-Distance ()
+Aircraft_types (type_identification : INT, manufacturer : VARCHAR, range_km : INT)
 
-Airplanes ()
+Distance(code_airports : VARCHAR)
 
-Flights ()
+Flights (flight_number : INT, code_airlines : VARCHAR, departure_airport_code : VARCHAR, arrival_airport_code : VARCHAR, departure_time : DATE, arrival_time : DATE, days_of_flight : VARCHAR)
 
-Classes ()
+Classes (seats_class_name : VARCHAR,  type_identification : INT)
 
-Seats ()
+Seats (type_identification : INT, number_of_seats : INT, smoking_seats : BOOLEAN, non_smoking_seats : BOOLEAN)
 
-Ticket Price ()
+Time(departure_time : DATE, arrival_time : DATE,)
 
-Time ()
-
-Boardcard ()
+Boardcard (flight_number : INT, flight_date : DATE, departure_airport_code : VARCHAR, arrival_airport_code : VARCHAR, name_passangers : VARCHAR)
 
